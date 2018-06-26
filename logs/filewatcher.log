@@ -1,0 +1,35 @@
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:50    ] - ===================== Read the Configuaration Information ===========================
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:52    ] - Polling Time [ 60000 ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:53    ] - Input Directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:54    ] - Output Directory [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:55    ] - Archive Directory [  c:/dataload/TMAPIBatch/Archive1 ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:56    ] - File Extension [ xml ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:57    ] - File Type Separator [ @ ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:58    ] - Batch File Path [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:59    ] - Response Code Tag Name in XML [ CompletedSuccessfully ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:60    ] - Response Code file start with [ Out_ ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:61    ] - Carrier file end with [ cam,carrier ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:62    ] - DC file end with [ DC ]
+[ INFO  ] - 2018-06-25 20:53:18 [  FileSession:66    ] - ======================================================================================
+[ INFO  ] - 2018-06-25 20:53:19 [  FileDog:33    ] - =======================================================================
+[ INFO  ] - 2018-06-25 20:53:19 [  FileDog:34    ] - Starting time [ 20:53:19.608 ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileDog:39    ] - Scanning Input directory [ c:/dataload/TMAPIBatch/Input1 ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileDog:45    ] - Input directory size [ 1 ] 
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:99    ] - ------------------------------------------------------------------------------------------
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:100    ] - Processing file name [ addEntity@CaM_6.xml ] - count file to be processed [ 1 ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:104    ] - {::Carrier::} type file found.
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:152    ] - Invoking Command Line Batch File from location [ C:/dataload/TMAPIBatch/BatchFile/process.bat ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:169    ] - Read all input data as response.
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:189    ] - Process Builder result code: [ true ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:195    ] - Done!!! 
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:119    ] - Command Line Batch Run Successfully...
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:216    ] - Scanning response code in folder  [ c:/dataload/TMAPIBatch/Output1 ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:228    ] - GOT : Response code file name [ Out_addEntity@CaM_6.xml ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:229    ] - Response code file location [ c:/dataload/TMAPIBatch/Output1\Out_addEntity@CaM_6.xml ]
+[ INFO  ] - 2018-06-25 20:53:19 [  CommonUtil:77    ] - Parsing XML for finding specific element.
+[ INFO  ] - 2018-06-25 20:53:19 [  CommonUtil:84    ] - Found element name: [ CompletedSuccessfully ]  element value: [ true ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:259    ] - File saved successfully...
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:303    ] - Archived file name: [ c:/dataload/TMAPIBatch/Archive1\addEntity@CaM_6.xml ]
+[ INFO  ] - 2018-06-25 20:53:19 [  FileSession:263    ] - ::::::::::::::File process completed successfully:::::::::
+[ INFO  ] - 2018-06-25 20:53:20 [  FileDog:61    ] - Finishing Time [ 20:53:20.103 ]
+[ INFO  ] - 2018-06-25 20:53:20 [  FileDog:62    ] - Time taken to complete  [ 495 (seconds) ]
