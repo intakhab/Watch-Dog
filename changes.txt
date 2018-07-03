@@ -1,0 +1,25 @@
+spring.banner.image.location=classpath:com/app/config/b.gif
+spring.banner.location=classpath:com/app/config/banner.txt
+#1000=1 (second)
+polling.time=60000
+initial.polling.delay=1000
+#Configuartion change
+do.archive.others.file=true
+################################################
+#Can Change here as per the system
+batch.file.path=C:/dataload/TMAPIBatch/BatchFile/process.bat
+input.folder=c:/dataload/TMAPIBatch/Input1
+output.folder=c:/dataload/TMAPIBatch/Output1
+archive.folder=c:/dataload/TMAPIBatch/Archive1
+carrier.code.tag=CarrierCode
+dc.code.tag=DistributionCenterCode
+respone.code.tag=CompletedSuccessfully
+file.extension=xml
+file.type.separator=@
+response.code.prefix=Out_
+#What ever file you want to support just write here
+file.endwith=cam,dc,so
+cam=changeEntity
+dc=changeEntity
+so=processShipmentOrderMaintain
+####################################################
